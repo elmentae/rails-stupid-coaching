@@ -1,0 +1,16 @@
+<h1>StupidCoaching!</h1>
+
+<div class="question">
+  <%= @question %>
+  <p><em>- You</em></p>
+</div>
+<br>
+<hr>
+<br>
+<div class="answer">
+  <b><%= @answer %></b>
+  <p><em>- Your coach</em></p>
+</div>
+<br>
+<br>
+<%= link_to "Ask another question", "ask", class: "link" %>
